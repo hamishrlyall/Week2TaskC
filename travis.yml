@@ -1,0 +1,4 @@
+language: csharp
+solution: Week2TaskC/Week2TaskC.sln
+script: 
+  - xbuild /p:Configuration=Release Week2TaskC/Week2TaskC.sln
